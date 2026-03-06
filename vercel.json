@@ -1,0 +1,14 @@
+{
+  "redirects": [
+    {
+      "source": "/",
+      "destination": "/promodepascoaa.shop/",
+      "permanent": false
+    },
+    {
+      "source": "/index.html",
+      "destination": "/promodepascoaa.shop/",
+      "permanent": false
+    }
+  ]
+}
