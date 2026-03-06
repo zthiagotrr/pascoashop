@@ -1,14 +1,32 @@
 {
-  "redirects": [
+  "rewrites": [
     {
       "source": "/",
-      "destination": "/promodepascoaa.shop/",
-      "permanent": false
+      "destination": "/promodepascoaa.shop/index.html"
     },
     {
       "source": "/index.html",
-      "destination": "/promodepascoaa.shop/",
-      "permanent": false
+      "destination": "/promodepascoaa.shop/index.html"
+    },
+    {
+      "source": "/css/:path*",
+      "destination": "/promodepascoaa.shop/css/:path*"
+    },
+    {
+      "source": "/js/:path*",
+      "destination": "/promodepascoaa.shop/js/:path*"
+    },
+    {
+      "source": "/images/:path*",
+      "destination": "/promodepascoaa.shop/images/:path*"
+    },
+    {
+      "source": "/wa.html",
+      "destination": "/promodepascoaa.shop/wa.html"
+    },
+    {
+      "source": "/url, window.location.html",
+      "destination": "/promodepascoaa.shop/url, window.location.html"
     }
   ]
 }
