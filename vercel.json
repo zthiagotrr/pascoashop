@@ -1,32 +1,32 @@
 {
-  "rewrites": [
+  "routes": [
     {
-      "source": "/",
-      "destination": "/promodepascoaa.shop/index.html"
+      "src": "^/$",
+      "dest": "/promodepascoaa.shop/index.html"
     },
     {
-      "source": "/index.html",
-      "destination": "/promodepascoaa.shop/index.html"
+      "src": "^/index\\.html$",
+      "dest": "/promodepascoaa.shop/index.html"
     },
     {
-      "source": "/css/:path*",
-      "destination": "/promodepascoaa.shop/css/:path*"
+      "src": "^/css/(.*)$",
+      "dest": "/promodepascoaa.shop/css/$1"
     },
     {
-      "source": "/js/:path*",
-      "destination": "/promodepascoaa.shop/js/:path*"
+      "src": "^/js/(.*)$",
+      "dest": "/promodepascoaa.shop/js/$1"
     },
     {
-      "source": "/images/:path*",
-      "destination": "/promodepascoaa.shop/images/:path*"
+      "src": "^/images/(.*)$",
+      "dest": "/promodepascoaa.shop/images/$1"
     },
     {
-      "source": "/wa.html",
-      "destination": "/promodepascoaa.shop/wa.html"
+      "src": "^/wa\\.html$",
+      "dest": "/promodepascoaa.shop/wa.html"
     },
     {
-      "source": "/url, window.location.html",
-      "destination": "/promodepascoaa.shop/url, window.location.html"
+      "src": "^/url, window.location\\.html$",
+      "dest": "/promodepascoaa.shop/url, window.location.html"
     }
   ]
 }
